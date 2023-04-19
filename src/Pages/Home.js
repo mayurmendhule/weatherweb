@@ -48,7 +48,7 @@ function Home() {
             type="text"
             value={city}
             onChange={(e) => setCity(e.target.value)}
-            placeholder="  Enter your city name"
+            placeholder="Enter your city name"
           />
           <button type="button" onClick={() => getData()}>
             Search
