@@ -1,0 +1,27 @@
+.navbar button {
+    float: right;
+    margin-right: 20px;
+    width: 100px;
+    height: 25px;
+    background: linear-gradient(to right, #e277bb 30%, #ddb683 90%);
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+  }
+.navbar button:hover {
+    background: linear-gradient(45deg, #FFAFBD 30%, #ffc3a0 90%);
+}
+
+.content {
+    text-align: center;
+    margin: 70px;
+    padding: 50px;
+}
+footer{
+    text-align: center;
+}
+@media only screen and (min-width: 550px){
+    .navbar button {
+        width:250px;
+    }
+}
